@@ -7,7 +7,6 @@
 //
 
 #import "AppDelegate.h"
-#import "SwipeCollectionViewController.h"
 #import "ItemPageViewController.h"
 
 @interface AppDelegate () <UISplitViewControllerDelegate>
@@ -20,7 +19,6 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
    
     ItemPageViewController *itemPageViewController = [[ItemPageViewController alloc]init];
-    SwipeCollectionViewController *swipeCollectionViewController = [[SwipeCollectionViewController alloc]init];
   
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     self.window.rootViewController = itemPageViewController;
