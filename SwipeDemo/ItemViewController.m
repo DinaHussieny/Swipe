@@ -1,27 +1,21 @@
 //
-//  ThirdViewController.m
+//  ItemViewController.m
 //  SwipeDemo
 //
-//  Created by Dina Hussieny on 5/30/16.
+//  Created by Dina Hussieny on 6/1/16.
 //  Copyright © 2016 Dina Hussieny. All rights reserved.
 //
 
-#import "ThirdViewController.h"
+#import "ItemViewController.h"
+#import "SItem.h"
 #import <Masonry/Masonry.h>
 
-@interface ThirdViewController ()
-
-@property (nonatomic, strong) UILabel *titleLabel;
-
-@end
-
-@implementation ThirdViewController
+@implementation ItemViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.titleLabel.text = @"Third";
-    self.titleLabel.textColor = [UIColor blueColor];
-    self.view.backgroundColor = [UIColor whiteColor];
+  
+    self.titleLabel.text = self.item.itemName;
     [self.view addSubview:self.titleLabel];
     
     [self.titleLabel mas_makeConstraints:^(MASConstraintMaker *make) {
@@ -39,5 +33,6 @@
     
     return  _titleLabel;
 }
+
 
 @end

@@ -14,11 +14,9 @@
 		CA79DBCC1CFC68C400F53FF5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA79DBCA1CFC68C400F53FF5 /* LaunchScreen.storyboard */; };
 		CA79DBD71CFC68C400F53FF5 /* SwipeDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA79DBD61CFC68C400F53FF5 /* SwipeDemoTests.m */; };
 		CA79DBE21CFC68C400F53FF5 /* SwipeDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA79DBE11CFC68C400F53FF5 /* SwipeDemoUITests.m */; };
-		CA79DBF11CFC693600F53FF5 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA79DBF01CFC693600F53FF5 /* FirstViewController.m */; };
-		CA79DC1E1CFC6DC900F53FF5 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA79DC1D1CFC6DC900F53FF5 /* SecondViewController.m */; };
-		CA79DC211CFC6DDC00F53FF5 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA79DC201CFC6DDC00F53FF5 /* ThirdViewController.m */; };
-		CA79DC241CFC852F00F53FF5 /* SwipeCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA79DC231CFC852F00F53FF5 /* SwipeCollectionViewController.m */; };
-		CA79DC271CFC8BF300F53FF5 /* SwipeCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CA79DC261CFC8BF300F53FF5 /* SwipeCollectionViewCell.m */; };
+		CAAA68E21CFF0A4700EBFA08 /* ItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAAA68E11CFF0A4700EBFA08 /* ItemViewController.m */; };
+		CAAA68E51CFF0AAA00EBFA08 /* SItem.m in Sources */ = {isa = PBXBuildFile; fileRef = CAAA68E41CFF0AAA00EBFA08 /* SItem.m */; };
+		CAAA68EA1CFF174000EBFA08 /* ItemPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAAA68E91CFF174000EBFA08 /* ItemPageViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,16 +53,12 @@
 		CA79DBDD1CFC68C400F53FF5 /* SwipeDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwipeDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA79DBE11CFC68C400F53FF5 /* SwipeDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwipeDemoUITests.m; sourceTree = "<group>"; };
 		CA79DBE31CFC68C400F53FF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CA79DBEF1CFC693600F53FF5 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		CA79DBF01CFC693600F53FF5 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		CA79DC1C1CFC6DC900F53FF5 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		CA79DC1D1CFC6DC900F53FF5 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
-		CA79DC1F1CFC6DDC00F53FF5 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
-		CA79DC201CFC6DDC00F53FF5 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
-		CA79DC221CFC852F00F53FF5 /* SwipeCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwipeCollectionViewController.h; sourceTree = "<group>"; };
-		CA79DC231CFC852F00F53FF5 /* SwipeCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwipeCollectionViewController.m; sourceTree = "<group>"; };
-		CA79DC251CFC8BF300F53FF5 /* SwipeCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwipeCollectionViewCell.h; sourceTree = "<group>"; };
-		CA79DC261CFC8BF300F53FF5 /* SwipeCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwipeCollectionViewCell.m; sourceTree = "<group>"; };
+		CAAA68E01CFF0A4700EBFA08 /* ItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemViewController.h; sourceTree = "<group>"; };
+		CAAA68E11CFF0A4700EBFA08 /* ItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemViewController.m; sourceTree = "<group>"; };
+		CAAA68E31CFF0AAA00EBFA08 /* SItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SItem.h; sourceTree = "<group>"; };
+		CAAA68E41CFF0AAA00EBFA08 /* SItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SItem.m; sourceTree = "<group>"; };
+		CAAA68E91CFF174000EBFA08 /* ItemPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemPageViewController.m; sourceTree = "<group>"; };
+		CAAA68EB1CFF179100EBFA08 /* ItemPageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ItemPageViewController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,16 +123,12 @@
 			children = (
 				CA79DBBC1CFC68C400F53FF5 /* AppDelegate.h */,
 				CA79DBBD1CFC68C400F53FF5 /* AppDelegate.m */,
-				CA79DC221CFC852F00F53FF5 /* SwipeCollectionViewController.h */,
-				CA79DC231CFC852F00F53FF5 /* SwipeCollectionViewController.m */,
-				CA79DC251CFC8BF300F53FF5 /* SwipeCollectionViewCell.h */,
-				CA79DC261CFC8BF300F53FF5 /* SwipeCollectionViewCell.m */,
-				CA79DBEF1CFC693600F53FF5 /* FirstViewController.h */,
-				CA79DBF01CFC693600F53FF5 /* FirstViewController.m */,
-				CA79DC1C1CFC6DC900F53FF5 /* SecondViewController.h */,
-				CA79DC1D1CFC6DC900F53FF5 /* SecondViewController.m */,
-				CA79DC1F1CFC6DDC00F53FF5 /* ThirdViewController.h */,
-				CA79DC201CFC6DDC00F53FF5 /* ThirdViewController.m */,
+				CAAA68E31CFF0AAA00EBFA08 /* SItem.h */,
+				CAAA68E41CFF0AAA00EBFA08 /* SItem.m */,
+				CAAA68EB1CFF179100EBFA08 /* ItemPageViewController.h */,
+				CAAA68E91CFF174000EBFA08 /* ItemPageViewController.m */,
+				CAAA68E01CFF0A4700EBFA08 /* ItemViewController.h */,
+				CAAA68E11CFF0A4700EBFA08 /* ItemViewController.m */,
 				CA79DBC81CFC68C400F53FF5 /* Assets.xcassets */,
 				CA79DBCA1CFC68C400F53FF5 /* LaunchScreen.storyboard */,
 				CA79DBCD1CFC68C400F53FF5 /* Info.plist */,
@@ -361,12 +351,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CA79DC1E1CFC6DC900F53FF5 /* SecondViewController.m in Sources */,
-				CA79DC211CFC6DDC00F53FF5 /* ThirdViewController.m in Sources */,
 				CA79DBBE1CFC68C400F53FF5 /* AppDelegate.m in Sources */,
-				CA79DC271CFC8BF300F53FF5 /* SwipeCollectionViewCell.m in Sources */,
-				CA79DC241CFC852F00F53FF5 /* SwipeCollectionViewController.m in Sources */,
-				CA79DBF11CFC693600F53FF5 /* FirstViewController.m in Sources */,
+				CAAA68E21CFF0A4700EBFA08 /* ItemViewController.m in Sources */,
+				CAAA68E51CFF0AAA00EBFA08 /* SItem.m in Sources */,
+				CAAA68EA1CFF174000EBFA08 /* ItemPageViewController.m in Sources */,
 				CA79DBBB1CFC68C400F53FF5 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
