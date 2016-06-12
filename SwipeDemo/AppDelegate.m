@@ -19,7 +19,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
    
     ItemPageViewController *itemPageViewController = [[ItemPageViewController alloc]init];
-  
+    
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     self.window.rootViewController = itemPageViewController;
     [self.window makeKeyAndVisible];

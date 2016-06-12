@@ -14,6 +14,21 @@
 		CA79DBCC1CFC68C400F53FF5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA79DBCA1CFC68C400F53FF5 /* LaunchScreen.storyboard */; };
 		CA79DBD71CFC68C400F53FF5 /* SwipeDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA79DBD61CFC68C400F53FF5 /* SwipeDemoTests.m */; };
 		CA79DBE21CFC68C400F53FF5 /* SwipeDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA79DBE11CFC68C400F53FF5 /* SwipeDemoUITests.m */; };
+		CAA237821D0D968E00345457 /* UIViewController+BannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = CAA237811D0D968E00345457 /* UIViewController+BannerView.m */; };
+		CAA237861D0D96EE00345457 /* InterstitialAdsView.m in Sources */ = {isa = PBXBuildFile; fileRef = CAA237851D0D96EE00345457 /* InterstitialAdsView.m */; };
+		CAA237881D0D97FD00345457 /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAA237871D0D97FD00345457 /* GoogleMobileAds.framework */; };
+		CAA2378A1D0D981900345457 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAA237891D0D981900345457 /* AdSupport.framework */; };
+		CAA2378C1D0D981F00345457 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAA2378B1D0D981F00345457 /* AudioToolbox.framework */; };
+		CAA2378E1D0D982B00345457 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAA2378D1D0D982B00345457 /* AVFoundation.framework */; };
+		CAA237901D0D983300345457 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAA2378F1D0D983300345457 /* CoreGraphics.framework */; };
+		CAA237921D0D984200345457 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAA237911D0D984200345457 /* CoreMedia.framework */; };
+		CAA237941D0D984900345457 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAA237931D0D984900345457 /* CoreTelephony.framework */; };
+		CAA237971D0D985900345457 /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAA237951D0D985900345457 /* EventKit.framework */; };
+		CAA237981D0D985900345457 /* EventKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAA237961D0D985900345457 /* EventKitUI.framework */; };
+		CAA2379A1D0D986700345457 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAA237991D0D986700345457 /* MediaPlayer.framework */; };
+		CAA2379C1D0D986F00345457 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAA2379B1D0D986F00345457 /* MessageUI.framework */; };
+		CAA2379E1D0D987A00345457 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAA2379D1D0D987A00345457 /* StoreKit.framework */; };
+		CAA237A01D0D988300345457 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAA2379F1D0D988300345457 /* SystemConfiguration.framework */; };
 		CAAA68E21CFF0A4700EBFA08 /* ItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAAA68E11CFF0A4700EBFA08 /* ItemViewController.m */; };
 		CAAA68E51CFF0AAA00EBFA08 /* SItem.m in Sources */ = {isa = PBXBuildFile; fileRef = CAAA68E41CFF0AAA00EBFA08 /* SItem.m */; };
 		CAAA68EA1CFF174000EBFA08 /* ItemPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAAA68E91CFF174000EBFA08 /* ItemPageViewController.m */; };
@@ -53,6 +68,23 @@
 		CA79DBDD1CFC68C400F53FF5 /* SwipeDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwipeDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA79DBE11CFC68C400F53FF5 /* SwipeDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwipeDemoUITests.m; sourceTree = "<group>"; };
 		CA79DBE31CFC68C400F53FF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAA237811D0D968E00345457 /* UIViewController+BannerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+BannerView.m"; sourceTree = "<group>"; };
+		CAA237831D0D96B000345457 /* UIViewController+BannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+BannerView.h"; sourceTree = "<group>"; };
+		CAA237841D0D96EE00345457 /* InterstitialAdsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InterstitialAdsView.h; sourceTree = "<group>"; };
+		CAA237851D0D96EE00345457 /* InterstitialAdsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InterstitialAdsView.m; sourceTree = "<group>"; };
+		CAA237871D0D97FD00345457 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMobileAds.framework; sourceTree = "<group>"; };
+		CAA237891D0D981900345457 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		CAA2378B1D0D981F00345457 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		CAA2378D1D0D982B00345457 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		CAA2378F1D0D983300345457 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CAA237911D0D984200345457 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		CAA237931D0D984900345457 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		CAA237951D0D985900345457 /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		CAA237961D0D985900345457 /* EventKitUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKitUI.framework; path = System/Library/Frameworks/EventKitUI.framework; sourceTree = SDKROOT; };
+		CAA237991D0D986700345457 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		CAA2379B1D0D986F00345457 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		CAA2379D1D0D987A00345457 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		CAA2379F1D0D988300345457 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		CAAA68E01CFF0A4700EBFA08 /* ItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemViewController.h; sourceTree = "<group>"; };
 		CAAA68E11CFF0A4700EBFA08 /* ItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemViewController.m; sourceTree = "<group>"; };
 		CAAA68E31CFF0AAA00EBFA08 /* SItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SItem.h; sourceTree = "<group>"; };
@@ -66,6 +98,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CAA237A01D0D988300345457 /* SystemConfiguration.framework in Frameworks */,
+				CAA2379E1D0D987A00345457 /* StoreKit.framework in Frameworks */,
+				CAA2379C1D0D986F00345457 /* MessageUI.framework in Frameworks */,
+				CAA2379A1D0D986700345457 /* MediaPlayer.framework in Frameworks */,
+				CAA237971D0D985900345457 /* EventKit.framework in Frameworks */,
+				CAA237981D0D985900345457 /* EventKitUI.framework in Frameworks */,
+				CAA237941D0D984900345457 /* CoreTelephony.framework in Frameworks */,
+				CAA237921D0D984200345457 /* CoreMedia.framework in Frameworks */,
+				CAA237901D0D983300345457 /* CoreGraphics.framework in Frameworks */,
+				CAA2378E1D0D982B00345457 /* AVFoundation.framework in Frameworks */,
+				CAA2378C1D0D981F00345457 /* AudioToolbox.framework in Frameworks */,
+				CAA2378A1D0D981900345457 /* AdSupport.framework in Frameworks */,
+				CAA237881D0D97FD00345457 /* GoogleMobileAds.framework in Frameworks */,
 				2BEBE9FB8381422222F93F22 /* libPods-SwipeDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -121,6 +166,11 @@
 		CA79DBB81CFC68C400F53FF5 /* SwipeDemo */ = {
 			isa = PBXGroup;
 			children = (
+				CAA237871D0D97FD00345457 /* GoogleMobileAds.framework */,
+				CAA237841D0D96EE00345457 /* InterstitialAdsView.h */,
+				CAA237851D0D96EE00345457 /* InterstitialAdsView.m */,
+				CAA237831D0D96B000345457 /* UIViewController+BannerView.h */,
+				CAA237811D0D968E00345457 /* UIViewController+BannerView.m */,
 				CA79DBBC1CFC68C400F53FF5 /* AppDelegate.h */,
 				CA79DBBD1CFC68C400F53FF5 /* AppDelegate.m */,
 				CAAA68E31CFF0AAA00EBFA08 /* SItem.h */,
@@ -166,6 +216,18 @@
 		DD66D60393BB45C4FF16194B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CAA2379F1D0D988300345457 /* SystemConfiguration.framework */,
+				CAA2379D1D0D987A00345457 /* StoreKit.framework */,
+				CAA2379B1D0D986F00345457 /* MessageUI.framework */,
+				CAA237991D0D986700345457 /* MediaPlayer.framework */,
+				CAA237951D0D985900345457 /* EventKit.framework */,
+				CAA237961D0D985900345457 /* EventKitUI.framework */,
+				CAA237931D0D984900345457 /* CoreTelephony.framework */,
+				CAA237911D0D984200345457 /* CoreMedia.framework */,
+				CAA2378F1D0D983300345457 /* CoreGraphics.framework */,
+				CAA2378D1D0D982B00345457 /* AVFoundation.framework */,
+				CAA2378B1D0D981F00345457 /* AudioToolbox.framework */,
+				CAA237891D0D981900345457 /* AdSupport.framework */,
 				72987707E7263B2EE452D9DE /* libPods-SwipeDemo.a */,
 			);
 			name = Frameworks;
@@ -351,11 +413,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CAA237861D0D96EE00345457 /* InterstitialAdsView.m in Sources */,
 				CA79DBBE1CFC68C400F53FF5 /* AppDelegate.m in Sources */,
 				CAAA68E21CFF0A4700EBFA08 /* ItemViewController.m in Sources */,
 				CAAA68E51CFF0AAA00EBFA08 /* SItem.m in Sources */,
 				CAAA68EA1CFF174000EBFA08 /* ItemPageViewController.m in Sources */,
 				CA79DBBB1CFC68C400F53FF5 /* main.m in Sources */,
+				CAA237821D0D968E00345457 /* UIViewController+BannerView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -489,6 +553,10 @@
 			baseConfigurationReference = 6C644E3F137FBA78E7FC960E /* Pods-SwipeDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SwipeDemo",
+				);
 				INFOPLIST_FILE = SwipeDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.grapesnberrries.SwipeDemo.SwipeDemo;
@@ -501,6 +569,10 @@
 			baseConfigurationReference = 204415233E90BC3CE239728E /* Pods-SwipeDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SwipeDemo",
+				);
 				INFOPLIST_FILE = SwipeDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.grapesnberrries.SwipeDemo.SwipeDemo;
