@@ -34,16 +34,10 @@
 }
 
 - (void)loadInterstitialAdRequest {
-    if (!self.loadedInterstitialRequest) {
-        DFPRequest *request = [DFPRequest request];
-        
-#ifdef DEBUG
-        request.testDevices = @[kGADSimulatorID];
-#endif
-        
-        [self.interstitial loadRequest:request];
-        self.loadedInterstitialRequest = YES;
-    }
+    DFPRequest *request = [DFPRequest request];
+    request.testDevices = @[kGADSimulatorID];
+    [self.interstitial loadRequest:request];
+
 }
 
 - (void)presentInterstitialFromViewController:(UIViewController *)viewController {
